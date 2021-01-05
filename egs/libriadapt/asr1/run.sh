@@ -10,7 +10,7 @@
 backend=pytorch
 stage=-1       # start from -1 if you need to start from data download
 stop_stage=100
-ngpu=8         # number of gpus ("0" uses cpu, otherwise use gpu)
+ngpu=4         # number of gpus ("0" uses cpu, otherwise use gpu)
 nj=32
 debugmode=1
 dumpdir=dump   # directory to dump full features
@@ -21,7 +21,7 @@ resume=        # Resume the training from snapshot
 # feature configuration
 do_delta=false
 
-preprocess_config=conf/specaug.yaml
+preprocess_config=conf/no_preprocess.yaml  # conf/specaug.yaml
 train_config=conf/train.yaml # current default recipe requires 4 gpus.
                              # if you do not have 4 gpus, please reconfigure the `batch-bins` and `accum-grad` parameters in config.
 lm_config=conf/lm.yaml
@@ -253,7 +253,7 @@ if [ ${stage} -le 4 ] && [ ${stop_stage} -ge 4 ]; then
         --minibatches ${N} \
         --verbose ${verbose} \
         --resume ${resume} \
-        --train-json ${feat_sp_dir}/data_${bpemode}${nbpe}.json \
+        --train-json ${feat_tr_dir}/data_${bpemode}${nbpe}.json \
         --valid-json ${feat_dt_dir}/data_${bpemode}${nbpe}.json
 fi
 
