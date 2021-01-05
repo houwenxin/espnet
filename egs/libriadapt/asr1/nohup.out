@@ -1,0 +1,581 @@
+stage 0: Data preparation
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_gb_clean_nexus6/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_gb_clean_nexus6/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_gb_clean_nexus6/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_gb_clean_nexus6/test
+local/data_prep.sh: successfully prepared data in data/en_gb_clean_nexus6
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_gb_clean_pseye/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_gb_clean_pseye/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_gb_clean_pseye/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_gb_clean_pseye/test
+local/data_prep.sh: successfully prepared data in data/en_gb_clean_pseye
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_gb_clean_respeaker/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_gb_clean_respeaker/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_gb_clean_respeaker/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_gb_clean_respeaker/test
+local/data_prep.sh: successfully prepared data in data/en_gb_clean_respeaker
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_gb_clean_shure/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_gb_clean_shure/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_gb_clean_shure/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_gb_clean_shure/test
+local/data_prep.sh: successfully prepared data in data/en_gb_clean_shure
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_gb_clean_usb/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_gb_clean_usb/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_gb_clean_usb/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_gb_clean_usb/test
+local/data_prep.sh: successfully prepared data in data/en_gb_clean_usb
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_matrix/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_matrix/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_matrix/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_matrix/test
+local/data_prep.sh: successfully prepared data in data/en_in_clean_matrix
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_nexus6/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_nexus6/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_nexus6/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_nexus6/test
+local/data_prep.sh: successfully prepared data in data/en_in_clean_nexus6
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_pseye/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_pseye/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_pseye/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_pseye/test
+local/data_prep.sh: successfully prepared data in data/en_in_clean_pseye
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_respeaker/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_respeaker/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_respeaker/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_respeaker/test
+local/data_prep.sh: successfully prepared data in data/en_in_clean_respeaker
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_shure/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_shure/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_shure/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_shure/test
+local/data_prep.sh: successfully prepared data in data/en_in_clean_shure
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_usb/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_usb/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_in_clean_usb/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_in_clean_usb/test
+local/data_prep.sh: successfully prepared data in data/en_in_clean_usb
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_us_clean_nexus6/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_nexus6/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_us_clean_nexus6/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_nexus6/test
+local/data_prep.sh: successfully prepared data in data/en_us_clean_nexus6
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_us_clean_pseye/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_pseye/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_us_clean_pseye/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_pseye/test
+local/data_prep.sh: successfully prepared data in data/en_us_clean_pseye
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_us_clean_respeaker/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_respeaker/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_us_clean_respeaker/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_respeaker/test
+local/data_prep.sh: successfully prepared data in data/en_us_clean_respeaker
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_us_clean_shure/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_shure/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_us_clean_shure/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_shure/test
+local/data_prep.sh: successfully prepared data in data/en_us_clean_shure
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_us_clean_usb/train/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_usb/train
+utils/data/get_utt2dur.sh: segments file does not exist so getting durations from wave files
+utils/data/get_utt2dur.sh: could not get utterance lengths from sphere-file headers, using wav-to-duration
+utils/data/get_utt2dur.sh: computed data/en_us_clean_usb/test/utt2dur
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_usb/test
+local/data_prep.sh: successfully prepared data in data/en_us_clean_usb
+dictionary: data/lang_char/en_us_clean_matrix/train_unigram5000_units.txt
+stage 0: Data preparation
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+stage 0: Data preparation
+stage 0: Data preparation
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+stage 0: Data preparation
+stage 0: Data preparation
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+stage 1: Feature Generation
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+stage 0: Data preparation
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+stage 1: Feature Generation
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+stage 1: Feature Generation
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+stage 1: Feature Generation
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+stage 1: Feature Generation
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+stage 1: Feature Generation
+stage 1: Feature Generation
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+stage 1: Feature Generation
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+stage 0: Data preparation
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_gb_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_gb_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_pseye exists and appears to be complete.
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_gb_clean_respeaker exists and appears to be complete.
+stage 1: Feature Generation
+stage 1: Feature Generation
+stage 1: Feature Generation
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+stage 1: Feature Generation
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_gb_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_gb_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+stage 1: Feature Generation
+run.sh: data/en_in_clean_matrix exists and appears to be complete.
+stage 1: Feature Generation
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_in_clean_nexus6 exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_in_clean_pseye exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+run.sh: data/en_in_clean_respeaker exists and appears to be complete.
+stage 1: Feature Generation
+run.sh: data/en_in_clean_shure exists and appears to be complete.
+stage 1: Feature Generation
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+stage 1: Feature Generation
+run.sh: data/en_in_clean_usb exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_us_clean_matrix exists and appears to be complete.
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+run.sh: data/en_us_clean_nexus6 exists and appears to be complete.
+run.sh: data/en_us_clean_pseye exists and appears to be complete.
+run.sh: data/en_us_clean_respeaker exists and appears to be complete.
+run.sh: data/en_us_clean_shure exists and appears to be complete.
+run.sh: data/en_us_clean_usb exists and appears to be complete.
+stage 1: Feature Generation
+steps/make_fbank_pitch.sh --cmd run.pl --nj 32 --write_utt2num_frames true data/en_us_clean_matrix/train exp/make_fbank/en_us_clean_matrix/train fbank
+steps/make_fbank_pitch.sh: moving data/en_us_clean_matrix/train/feats.scp to data/en_us_clean_matrix/train/.backup
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+utils/validate_data_dir.sh: Successfully validated data-directory data/en_us_clean_matrix/train
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_fbank_pitch.sh: line 164: 39092 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39206 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39252 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39304 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39344 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39368 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39372 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39489 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39553 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39639 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39686 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39712 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 39818 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 40804 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 41068 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 41174 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 43304 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
+steps/make_fbank_pitch.sh: line 164: 43321 Terminated              $cmd JOB=1:$nj $logdir/make_fbank_pitch_${name}.JOB.log paste-feats --length-tolerance=$paste_length_tolerance "$fbank_feats" "$pitch_feats" ark:- \| copy-feats --compress=$compress $write_num_frames_opt ark:- ark,scp:$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.ark,$fbank_pitch_dir/raw_fbank_pitch_$name.JOB.scp
