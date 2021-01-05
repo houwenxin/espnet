@@ -31,11 +31,19 @@ for split in train test; do
   wav_scp=$dst/${split}/wav.scp; [[ -f "$wav_scp" ]] && rm $wav_scp
   trans=$dst/${split}/text; [[ -f "$trans" ]] && rm $trans
   utt2spk=$dst/${split}/utt2spk; [[ -f "$utt2spk" ]] && rm $utt2spk
-  # spk2gender=$dst/spk2gender; [[ -f $spk2gender ]] && rm $spk2gender
-  # awk -F "\"*,\"*" '{print $0} {print $2}' ${split}_files_${device}.csv
-  tail -n +2 $current_dir/$csv_file | sort | awk -F "\"*,\"*" '{print $1" "$1}' > $wav_scp
-  tail -n +2 $current_dir/$csv_file | sort | awk -F "\"*,\"*" '{print $1" "$3}' > $trans
-  tail -n +2 $current_dir/$csv_file | sort | awk -F "\"*,\"*" '{print $1" "$1}' > $utt2spk
+
+  paste -d " " \
+    <(tail -n +2 $current_dir/$csv_file | sort | grep -Eo "[0-9]*-[0-9]*-[0-9]*") \
+    <(tail -n +2 $current_dir/$csv_file | sort | awk -F "\"*,\"*" '{print $1}') > $wav_scp
+  paste -d " " \
+    <(tail -n +2 $current_dir/$csv_file | sort | grep -Eo "[0-9]*-[0-9]*-[0-9]*") \
+    <(tail -n +2 $current_dir/$csv_file | sort | awk -F "\"*,\"*" '{print $3}') > $trans
+  paste -d " " \
+    <(tail -n +2 $current_dir/$csv_file | sort | grep -Eo "[0-9]*-[0-9]*-[0-9]*") \
+    <(tail -n +2 $current_dir/$csv_file | sort | grep -Eo "[0-9]*-[0-9]*-[0-9]*") > $utt2spk
+  # tail -n +2 $current_dir/$csv_file | sort | awk -F "\"*,\"*" '{print $1" "$1}' > $wav_scp
+  # tail -n +2 $current_dir/$csv_file | sort | awk -F "\"*,\"*" '{print $1" "$3}' > $trans
+  # tail -n +2 $current_dir/$csv_file | sort | awk -F "\"*,\"*" '{print $1" "$1}' > $utt2spk
   utils/data/get_utt2dur.sh --nj 1 $dst/${split}
   utils/utt2spk_to_spk2utt.pl $dst/${split}/utt2spk > $dst/${split}/spk2utt
   # utils/fix_data_dir.sh $dst/${split}
